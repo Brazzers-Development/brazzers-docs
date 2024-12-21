@@ -1,17 +1,20 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Introduction](README.md)
+* [Support](readme-1.md)
+* [Partnerships](readme-2.md)
 
-## Getting Started
+## Paid Resources
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Information](paid-resources/readme.md)
+* [Radar & Lidar](paid-resources/radar-and-lidar/README.md)
+  * [Installation](paid-resources/radar-and-lidar/installation.md)
+  * [Config](paid-resources/radar-and-lidar/config.md)
 
-## Basics
+## Free Resources
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Perspective](free-resources/perspective/README.md)
+  * [Installation](free-resources/perspective/installation.md)
+  * [Exports](free-resources/perspective/exports.md)
+  * [Statebags](free-resources/perspective/statebags.md)
+  * [Config](free-resources/perspective/config.md)

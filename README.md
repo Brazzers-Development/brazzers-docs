@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -18,12 +13,26 @@ layout:
     visible: true
 ---
 
-# Welcome
+# Introduction
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+Welcome to our documentation site. Our goal is to guide you through the installation of our resources and help you adapt them to your specific needs and frameworks.
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+If you feel the documentation is lacking, feel free to submit a Pull Request located at the bottom of the page "Edit this page".
 
-### Jump right in
+## Contact
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+***
+
+{% tabs %}
+{% tab title="Tebex" %}
+You can find all our paid resources located on our [Tebex](https://brazzers-development.tebex.io/)
+{% endtab %}
+
+{% tab title="Discord" %}
+Stay up to date with updates, announcements, giveaways, and more on our [Discord Server](https://discord.gg/J7EH9f9Bp3)
+{% endtab %}
+
+{% tab title="YouTube" %}
+You can preview _most_ of our resources on our [YouTube](https://www.youtube.com/@brazzersdevelopment2354). At times, previews may be prematurely shown on our discord server that may not be on [YouTube](https://www.youtube.com/@brazzersdevelopment2354).
+{% endtab %}
+{% endtabs %}
