@@ -18,7 +18,8 @@ Are you ready to take your FiveM roleplay server to the next level? Our Police R
 * Directional system allowing you to have manual control of the radar location for both the front and rear radar
 * Standard radar system with detected vehicle filtering (Ability to enable/disable front/back xmit)
 * Lidar system allowing players to take the radar into their own hands with an item. Get vehicle speeds while on foot.
-* Flagging system for creating bolos on plates. Radar will signal when it scans a flag plate
+* Flagging system for creating bolos on plates. Radar will signal when it scans a flag plate.
+* Jammer system allowing you to install jammers on your vehicle preventing a radar/lidar speed detection.
 * Keybinds for all controls, utilizing ox\_lib.
 * Extensive config with in depth control of vehicle whitelist, job whitelist, and player whitelist.
 * All settings are saved for the client, never having to readjust the default settings on disconnect.
