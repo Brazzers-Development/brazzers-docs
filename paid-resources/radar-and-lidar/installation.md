@@ -1,6 +1,6 @@
 ---
-description: Quick and easy tutorial to ensure the resource is installed properly
 icon: gear
+description: Quick and easy tutorial to ensure the resource is installed properly
 ---
 
 # Installation
@@ -16,6 +16,20 @@ icon: gear
 	label = 'Lidar',
 	weight = 700,
 	durability = 0.1,
+},
+```
+
+* Head over to ox\_inventory/data/items.lua and past the following item
+
+```lua
+['jammer'] = {
+	label = 'Radar Jammer',
+	weight = 500,
+	stack = false,
+	client = {
+		export = 'brazzers_radar.jammer',
+		image = 'jammer.png',
+	}
 },
 ```
 
