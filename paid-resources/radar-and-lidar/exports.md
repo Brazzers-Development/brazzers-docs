@@ -40,9 +40,27 @@ exports.brazzers_radar:removeBolo(plate)
 
 ***
 
+Gets all the plates that currently have a BOLO or are flagged
+
 ```lua
 local bolos = exports.brazzers_radar:getBolos()
 ```
+
+### _toggleJammer_
+
+***
+
+Install/ uninstall a vehicle jammer on a vehicle
+
+```lua
+exports.brazzers_radar:toggleJammer(bool, vehicle)
+```
+
+* bool: `boolean`
+  * true
+  * false
+* vehicle: `int`
+  * entity
 
 ## Server
 
@@ -76,6 +94,23 @@ exports.brazzers_radar:removeBolo(plate)
 
 ***
 
+Gets all the plates that currently have a BOLO or are flagged
+
+<pre class="language-lua"><code class="lang-lua"><strong>local bolos = exports.brazzers_radar:getBolos()
+</strong></code></pre>
+
+### _toggleJammer_
+
+***
+
+Install/ uninstall a vehicle jammer on a vehicle
+
 ```lua
-local bolos = exports.brazzers_radar:getBolos()
+exports.brazzers_radar:toggleJammer(bool, netId)
 ```
+
+* bool: `boolean`
+  * true
+  * false
+* netId: `int`
+  * net id of the vehicle entity

@@ -10,6 +10,7 @@
 * [Radar & Lidar](paid-resources/radar-and-lidar/README.md)
   * [Installation](paid-resources/radar-and-lidar/installation.md)
   * [Exports](paid-resources/radar-and-lidar/exports.md)
+  * [Statebags](paid-resources/radar-and-lidar/statebags.md)
   * [Config](paid-resources/radar-and-lidar/config.md)
 
 ## Free Resources

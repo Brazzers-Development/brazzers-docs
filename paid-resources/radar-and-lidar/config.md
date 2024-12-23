@@ -1,6 +1,6 @@
 ---
-description: Here is a preview of the config for this resource
 icon: code
+description: Here is a preview of the config for this resource
 ---
 
 # Config
@@ -29,12 +29,13 @@ return {
         jobs = { 'police' }, -- If above is true, what job names
         class = { [18] = true }, -- Class of vehicles you want to allow (Default: Emergency)
         whitelist = { [`police`] }, -- Individual vehicles that you want to whitelist which will bypass class check
+        distance = 25.0, -- Minimum distance the vehicle radar can read a vehicle
     },
 
     -- [LIDAR] --
     lidar = {
         command = {
-            enabled = true, -- This command is used to replace the item dependency and ox_inventory. If you plan to use the item leave this false
+            enabled = false, -- This command is used to replace the item dependency and ox_inventory. If you plan to use the item leave this false
             name = 'lidar' -- If enabled then do /lidar
         },
         item = 'WEAPON_PROLASER4', -- If above is false, this is the item name for the lidar weapon. I don't recommend changing this
@@ -47,6 +48,20 @@ return {
     menu = {
         retrictByJob = true, -- Would you like to restrict the settings menu by job names
         jobs = { 'police' }, -- If above is true, what job names
+    },
+
+    -- [BOLOS] --
+    bolos = {
+        enableCommands = true, -- Commands for flagging and removing flagged plates
+        retrictByJob = true, -- Would you like to restrict the command usage by job names [Recommended]
+        jobs = { 'police' }, -- If above is true, what job names
+    },
+
+    -- [RADAR JAMMER]--
+    jammer = {
+        restrictByVehicle = false, -- Restrict the jammer item to being installed in certain vehicles
+        whitelist = { [`sultan`] }, -- If above it true, add the vehicles that you want to whitelist
+        backlist = { [`police`] }, -- General blacklist restricting these vehicles to install jammers on
     },
 
     -- [DIRECTIONAL MODE] --
