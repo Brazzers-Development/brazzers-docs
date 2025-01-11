@@ -48,6 +48,7 @@ Elevate your drug-selling gameplay with this immersive and dynamic script. Build
 * Integrated Police Alert system (ps-dispatch) out the box.
 * Tied with a interactive UI allowing your players to engage with this system on the fly.
 * Multi theme allowing you to select which style you like.
+* Custom laptop animation.
 
 ## Dependencies
 
