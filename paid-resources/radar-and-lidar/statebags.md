@@ -4,11 +4,11 @@ icon: lock
 
 # Statebags
 
-### jammer
+### `jammer`
 
-***
-
+{% hint style="info" %}
 Returns whether or not a vehicle has a radar jammer installed on it
+{% endhint %}
 
 * entity: `int`
 
@@ -21,3 +21,5 @@ else
     -- Do stuff when jammer is not installed
 end
 ```
+
+***

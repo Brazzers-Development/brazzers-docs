@@ -4,11 +4,11 @@ icon: arrow-down-left-and-arrow-up-right-to-center
 
 # Exports
 
-### blockFreeCam
+### `blockFreeCam`
 
-***
-
+{% hint style="info" %}
 Enable or disable the usage of freecam.
+{% endhint %}
 
 ```lua
 exports.brazzers_perspective:blockFreeCam(block)
@@ -18,16 +18,19 @@ exports.brazzers_perspective:blockFreeCam(block)
   * true
   * false
 
-### blockZoom
-
 ***
 
+### `blockZoom`
+
+{% hint style="info" %}
 Enable or disable the usage of zoom.
+{% endhint %}
 
 ```lua
 exports.brazzers_perspective:blockZoom(block)
 ```
 
-* block: `boolean`
+- block: `boolean`
   * true
   * false
+- ***

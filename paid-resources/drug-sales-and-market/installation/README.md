@@ -1,11 +1,10 @@
 ---
 icon: gear
-description: Quick and easy tutorial to ensure the resource is installed properly
 ---
 
 # Installation
 
-Welcome to the Radar & Lidar System installation guide! In this guide, you'll find step-by-step instructions to help you seamlessly install our asset. By carefully following each step, you can ensure a smooth and trouble-free installation process, provided the documentation is followed in its entirety.
+Welcome to the Drug Sales & Market installation guide! In this guide, you'll find step-by-step instructions to help you seamlessly install our asset. By carefully following each step, you can ensure a smooth and trouble-free installation process, provided the documentation is followed in its entirety.
 
 {% hint style="danger" %}
 If you lack programming experience, we strongly recommend reading each step thoroughly without skipping any lines, as every part of the documentation is essential and should not be overlooked. Alternatively, if you have a trusted developer, they can install the asset quickly, easily, and securely by carefully following this documentation step by step.
@@ -25,7 +24,7 @@ To access the asset, you must have completed the purchase using your own Keymast
 If you need to update the asset, you must repeat this step. Simply download the asset again, and you will receive the complete updated version.
 {% endhint %}
 
-You have reference the [Information](../) section of [Paid Resources](broken-reference) for more information on downloading your asset.
+You have reference the [Information](../../) section of [Paid Resources](broken-reference) for more information on downloading your asset.
 
 ***
 
@@ -38,47 +37,44 @@ Ensure the assets are correctly positioned by following this step carefully. Ski
 ```lua
 -- Dependencies
 ensure ox_lib
+ensure ox_target
 ensure ox_inventory
 ensure Renewed-Lib
 
 -- Our Resource
-ensure brazzers_radar
+ensure brazzers_sales
 ```
 
 ***
 
-## Installing The Item
+## SQL Installation
+
+{% hint style="info" %}
+Our resouce auto creates the neccessary tables, but if you decide to do it manually, simply run the provided sql file in the resource.
+{% endhint %}
+
+***
+
+## Item Installation
 
 {% hint style="info" %}
 Head over to ox\_inventory/data/weapons.lua and paste the following item
 {% endhint %}
 
-```lua
-['WEAPON_PROLASER4'] = {
-	label = 'Lidar',
-	weight = 700,
-	durability = 0.1,
-},
-```
-
-{% hint style="info" %}
-Head over to ox\_inventory/data/items.lua and past the following item
+{% hint style="warning" %}
+Locate the image for the item in brazzers\_radar/images and drag and drop that into ox\_inventory/web/images if you need an item image.
 {% endhint %}
 
 ```lua
-['jammer'] = {
-	label = 'Radar Jammer',
+['trapbook'] = {
+	label = 'Trap Book',
 	weight = 500,
 	stack = false,
 	client = {
-		export = 'brazzers_radar.jammer',
-		image = 'jammer.png',
+		export = 'brazzers_sales.trapbook',
+		image = 'trapbook.png',
 	}
 },
 ```
-
-{% hint style="info" %}
-Locate the image for the item in brazzers\_radar/images and drag and drop that into ox\_inventory/web/images
-{% endhint %}
 
 ***

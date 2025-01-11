@@ -5,6 +5,8 @@ description: Here is a preview of the config for this resource
 
 # Config
 
+## Main
+
 ```lua
 return {
     defaultKeys = {
@@ -113,3 +115,5 @@ return {
     },
 }
 ```
+
+***

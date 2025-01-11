@@ -6,13 +6,15 @@ icon: user-police-tie
 
 Are you ready to take your FiveM roleplay server to the next level? Our Police Radar & Lidar Resource is the ultimate tool for law enforcement, offering unparalleled realism, precision, and functionality
 
+<figure><img src="../../.gitbook/assets/radar-gif.gif" alt=""><figcaption></figcaption></figure>
+
 ## Main Features
 
 ***
 
 * Optimized Resource (0.00ms idle, and 0.02 on use, less than 1 MiB ram usage regardless of frameworks) utilizing ox's classes system.
 * Multi-Framework support (ESX, Ox, QBCore, QBox)
-* Fully translateable (english translation included)
+* Fully translatable (english translation included)
 * Native Audio sounds utilizing state bags for perfect syncing across all clients
 * Complete UI control, allowing the user to move around all UI's, change scale, and alter themes. All changes are saved and will never require you to do it again.
 * Directional system allowing you to have manual control of the radar location for both the front and rear radar

@@ -1,11 +1,11 @@
 ---
-description: Here is a preview of the config for this resource
 icon: code
+description: Here is a preview of the config for this resource
 ---
 
 # Config
 
-
+## Main
 
 ```lua
 return {
@@ -26,3 +26,5 @@ return {
     },
 }
 ```
+
+***

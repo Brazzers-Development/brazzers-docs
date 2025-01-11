@@ -4,11 +4,11 @@ icon: lock
 
 # Statebags
 
-### zoom
+### `zoom`
 
-***
-
+{% hint style="info" %}
 Returns whether the player is currently zooming in or not
+{% endhint %}
 
 * zoom: `boolean`
 
@@ -22,11 +22,13 @@ else
 end
 ```
 
-### freeCam
-
 ***
 
+### `freeCam`
+
+{% hint style="info" %}
 Returns whether the player is currently using the freeCam or not
+{% endhint %}
 
 * freeCam: `boolean`
 
@@ -39,3 +41,5 @@ else
     -- Do stuff when not using free cam
 end
 ```
+
+***
