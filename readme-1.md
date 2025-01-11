@@ -33,6 +33,6 @@ You can find more information about Pudge on our Discord Server
 
 <summary>xViperAG </summary>
 
-You can find more information about Pudge on our Discord Server
+You can find more information about XViperAG on our Discord Server
 
 </details>
