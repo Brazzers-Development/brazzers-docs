@@ -13,12 +13,12 @@ Elevate your drug-selling gameplay with this immersive and dynamic script. Build
 ***
 
 * Optimized Resource (0.00ms idle, and 0.01 on use, less than 1 MiB ram usage regardless of frameworks) utilizing ox's classes system.
-* Multi-Framework support (ESX, Ox, QBCore, QBox)
-* Fully translatable (English translation included)
-* Secure Netevents (Prevents cheaters from being able to exploit the system to gain free items)
+* Multi-Framework support (ESX, Ox, QBCore, QBox).
+* Fully translatable (English translation included).
+* Secure Netevents (Prevents cheaters from being able to exploit the system to gain free items).
 * Drug Sale System
   * Negotiate every single offer when cornering.
-  * Zone based selling.
+  * Zone based selling
     * Zones can accept specific drugs and items.
   * Ability to be robbed while cornering, with the ability to retrieve your items.
   * Configure the prop model per item during handoff.
@@ -31,23 +31,23 @@ Elevate your drug-selling gameplay with this immersive and dynamic script. Build
   * Contacts provide bulk delivery missions with item specific to each delivery.
   * Transport drugs to multiple stops along a single route.
   * Unlimited amount of contacts, create new contacts seamlessly.
-  * Set specific routes per contact
+  * Set specific routes per contact.
   * XP/ Rep rewards per handoff.
-  * Cooldown system per contact
+  * Cooldown system per contact.
 * Skills
   * Tie the system together to make it feel rewarding for your players.
   * Unlimited amount of skills, create new skills seamlessly.
   * Skills provide rewards for players as they continue to gain reputation such as items, reputation, and cash.
   * Skills can be referenced in your other resources allowing you to tie this reputation system elsewhere. (See examples on our docs).
 * Marketplace
-  * A dynamic player to player digital market
+  * A dynamic player to player digital market.
   * Allow players to create offers for their items with the ability to whitelist/ blacklist specific items acceptable for the market, and set the maximum price for the item allowed.
-  * History system allowing players to reference past sales/ purchases
+  * History system allowing players to reference past sales/ purchases.
   * Offers and history expires, ensuring your database doesn't get overloaded.
 * Extensive config with in depth control of absolutely everything. Config comes with 2 Contacts made, 100+ locations, 20 skills per specialization (Weed, Cocaine) and more.&#x20;
-* Integrated Police Alert system (pd-dispatch) out the box
+* Integrated Police Alert system (ps-dispatch) out the box.
 * Tied with a interactive UI allowing your players to engage with this system on the fly.
-* Multi theme allowing you to select which style you like
+* Multi theme allowing you to select which style you like.
 
 ## Dependencies
 

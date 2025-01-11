@@ -1,3 +1,7 @@
+---
+icon: camera-retro
+---
+
 # Perspective
 
 I've seen a lot of people looking for a camera/perspective system similar to the known servers out there; even some putting a price point on such a simple resource. The one's available publicly were just written terribly. Here is some information about this resource
